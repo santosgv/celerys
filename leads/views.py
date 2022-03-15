@@ -18,5 +18,3 @@ def valida(request):
                                             'email':email})
     except:
         return HttpResponse('erro interno do sistema')
-
-
