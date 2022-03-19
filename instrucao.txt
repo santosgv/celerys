@@ -1,0 +1,7 @@
+execultar o worker 
+
+celery -A django_celery worker --loglevel=INFO
+
+execultar o django
+
+python3 manager.py runserver
